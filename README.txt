@@ -9,3 +9,12 @@ By utilizing a decoupled polynomial regression architecture trained on an initia
 Accuracy: Predicts coating length to within 1.4 mm wrt CST simulations.
 Efficiency: Reduces simulation wait times from hours to milliseconds.
 Tech Stack: Python, scikit-learn, Pandas, NumPy.
+
+## Results
+- R² = 0.999 on combined simulation dataset
+- Coating length prediction: ±1.4mm accuracy
+- Frequency targeting: achieved
+- Reduces design iteration from hours to milliseconds
+
+## Background
+Built by a physicist applying ML to cavity. Combines domain physics knowledge with data-driven surrogate modeling.
